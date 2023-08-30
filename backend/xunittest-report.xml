@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="16" failures="0" errors="0" time="0.578">
+  <testsuite name="sample.test.js" errors="0" failures="0" skipped="0" timestamp="2023-08-30T15:22:02" time="0.426" tests="8">
+    <testcase classname="Sentiment Analysis" name="should correctly calculate positive sentiment score" time="0.016">
+    </testcase>
+    <testcase classname="Sentiment Analysis" name="should correctly calculate neutral sentiment score" time="0">
+    </testcase>
+    <testcase classname="Sentiment Analysis" name="should correctly calculate negative sentiment score" time="0">
+    </testcase>
+    <testcase classname="Sentiment Analysis" name="should extract positive sentiment category" time="0.001">
+    </testcase>
+    <testcase classname="Sentiment Analysis" name="should extract neutral sentiment category" time="0">
+    </testcase>
+    <testcase classname="Sentiment Analysis" name="should extract negative sentiment category" time="0">
+    </testcase>
+    <testcase classname="Sentiment Analysis" name="should handle mixed sentiment information" time="0">
+    </testcase>
+    <testcase classname="Sentiment Analysis" name="should default to neutral sentiment category for unknown cases" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="main.test.js" errors="0" failures="0" skipped="0" timestamp="2023-08-30T15:22:02" time="0.096" tests="8">
+    <testcase classname="Sentiment Analysis" name="should correctly calculate positive sentiment score" time="0.004">
+    </testcase>
+    <testcase classname="Sentiment Analysis" name="should correctly calculate neutral sentiment score" time="0">
+    </testcase>
+    <testcase classname="Sentiment Analysis" name="should correctly calculate negative sentiment score" time="0">
+    </testcase>
+    <testcase classname="Sentiment Analysis" name="should extract positive sentiment category" time="0.001">
+    </testcase>
+    <testcase classname="Sentiment Analysis" name="should extract neutral sentiment category" time="0">
+    </testcase>
+    <testcase classname="Sentiment Analysis" name="should extract negative sentiment category" time="0">
+    </testcase>
+    <testcase classname="Sentiment Analysis" name="should handle mixed sentiment information" time="0">
+    </testcase>
+    <testcase classname="Sentiment Analysis" name="should default to neutral sentiment category for unknown cases" time="0">
+    </testcase>
+  </testsuite>
+</testsuites>

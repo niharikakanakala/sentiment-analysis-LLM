@@ -1,0 +1,45 @@
+{
+  "name": "niharika-llm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "jest --testTimeout=10000 --verbose --ci --testResultsProcessor=\"jest-junit\"",
+    "sample_tests": "jest --forceExit --testTimeout=10000 --verbose --ci --testResultsProcessor=\"jest-junit\" -- sample.test.js",
+    "main_tests": "jest --forceExit --testTimeout=10000 --verbose --ci --testResultsProcessor=\"jest-junit\" -- main.test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios-mock-adapter": "^1.21.5",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "http-errors": "^2.0.0",
+    "jest-junit": "^14.0.1",
+    "mongodb": "^4.9.0",
+    "mongoose": "^6.6.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.22",
+    "openai": "^3.3.0",
+    "openai-api": "^1.3.1",
+    "senti": "^0.0.2",
+    "sentiment": "^5.0.2"
+  },
+  "jest-junit": {
+    "suiteName": "jest tests",
+    "outputDirectory": ".",
+    "outputName": "xunittest-report.xml",
+    "uniqueOutputName": "false",
+    "classNameTemplate": "{classname}",
+    "titleTemplate": "{title}",
+    "ancestorSeparator": " › ",
+    "usePathForSuiteName": "true"
+  },
+  "devDependencies": {
+    "jest": "^29.6.4",
+    "supertest": "^6.3.3"
+  }
+}
